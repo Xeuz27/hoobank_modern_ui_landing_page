@@ -14,11 +14,11 @@ export default defineConfig({
         swDest: "sw.js",
       },
       // Set the base URL for the assets
-      base: "/",
+      base: ".",
       // Set the scope for the service worker
-      scope: "/",
+      scope: ".",
       // Set the start URL for the PWA
-      startUrl: "/",
+      startUrl: ".",
       // Set the display type for the PWA
       display: "standalone",
       // Set the background color for the PWA
